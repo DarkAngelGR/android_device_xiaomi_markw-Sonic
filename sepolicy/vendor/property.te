@@ -1,4 +1,2 @@
 # Spectrum
 type spectrum_prop, property_type;
-# Dirac
-type dirac_prop, property_type;
