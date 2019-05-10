@@ -236,13 +236,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI
 
-# Device-specific settings
-PRODUCT_PACKAGES += \
-		XiaomiDoze \
-		DeviceSettings \
-		XiaomiDirac 
-
-
 # Display
 PRODUCT_PACKAGES += \
     copybit.msm8953 \
@@ -568,7 +561,7 @@ PRODUCT_BOOT_JARS += \
     WfdCommon
 
 # XiaomiParts
-#PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES += \
     XiaomiParts
 
 # Inherit proprietary files
