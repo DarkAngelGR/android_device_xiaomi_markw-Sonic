@@ -560,9 +560,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
-# XiaomiParts
+# Device-specific settings
 PRODUCT_PACKAGES += \
-    XiaomiParts
+		XiaomiParts
 
 # Inherit proprietary files
 $(call inherit-product-if-exists, vendor/xiaomi/markw/markw-vendor.mk)
