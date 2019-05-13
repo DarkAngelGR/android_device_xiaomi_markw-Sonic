@@ -14,4 +14,4 @@
 # limitations under the License.
 #
 
-add_lunch_combo rr_markw-userdebug
+add_lunch_combo lineage_markw-userdebug
